@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifolio</title>
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.flex{
+    display: flex;
+}
+
+.face{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn button{
+    padding: 10px;
+    font-size: large;
+    border-radius: 100px;
+    background-color: blueviolet;
+    border: 0;
+    color: black;
+}
+h2.titulo{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+header{
+    padding: 40px;
+    font-size: large;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 50px;  
+}
+
+img{
+    height: 150px;
+    width: 53px;
+    border-radius: 20px;
+}
+
+section.topo{
+    padding: 40px;
+}
+section.topo.flex{
+    align-items: center;
+    justify-content: center;
+}
+.topo h1{
+    color: white;
+    font-size: xx-large;
+}
+.topo p{
+    color: white;
+    margin: 40px;
+}
+.formulario{
+    padding: 80px;
+}
+form{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;/*vi isso no youtube*/
+    gap: 10px; /*vi isso no youtube*/
+}   
+form input{
+    width: auto;
+    background-color: rgb(59, 59, 59);
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    color: white;
+}
+form .btn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+    </style>
+</head>
+<body> 
+    <header>
+        <div class="face">
+            <div class="logo">
+                <a href="">
+                     <img src="images/preto.png" alt="logo">
+                </a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn">
+                <button>
+                    <a href="index.html">  Voltar  </a>
+                </button>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="formulario">
+        <div class="face">
+            <form action="">
+                <input type="text" placeholder="Seu Nome">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Motivo">
+                <div class="btn"><input type="submit" value="Enviar"></div>
+        </div>
+    </div>
+</body>
+</html>
